@@ -17,7 +17,6 @@ function App() {
       <About />
       <Education />
       <Expereince />
-      <Skills />
       <Tech />
       <Work />
       <Contact />

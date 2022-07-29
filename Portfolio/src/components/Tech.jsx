@@ -55,7 +55,7 @@ const Tech =() => {
                   <p className='text-lg my-4 font-bold'>MongoDB</p>
               </div>
               <div className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500 rounded-xl'>
-                  <img className='w-30 h-16 mx-auto mt-9' src={Git} alt="Git icon" />
+                  <img className='w-20 mx-auto mt-5' src={Git} alt="Git icon" />
                   <p className='text-lg my-4 font-bold'>Git</p>
               </div>
               <div className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500 rounded-xl'>

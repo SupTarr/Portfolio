@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300 ">
+    <div name="about" className="w-full pt-24 bg-[#0a192f] text-gray-300 ">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
@@ -17,11 +17,10 @@ const About = () => {
           </div>
           <div>
             <p className="text-justify text-2xl indent-10 py-1">
-              After graduated from the University, I felt my skills were not
-              capable with the VUCA world. This is the reason why I started to
-              learn programming in order to acquire Business expertise and
-              Technology expertise. Mainly use{" "}
-              <span className="text-yellow-300">JavaScript</span>. Currently,
+              I have experiences with C, Python, HTML, CSS, Bootstrap, React,
+              JavaScript programming skills from the classroom and learning
+              beyond classroom with training courses.
+              <span className="text-yellow-300"> JavaScript</span>. Currently,
               learning <span className="text-yellow-300"> Cypress </span>
               and <span className="text-yellow-300"> Robot Framework</span>.
               Looking forward to learning about{" "}

@@ -2,7 +2,7 @@ import React from "react";
 
 const Education = () => {
     return (
-        <div name="education" className="w-full h-auto bg-[#0a192f] text-gray-300">
+        <div name="education" className="w-full h-auto pt-28 bg-[#0a192f] text-gray-300">
             <div className="flex flex-col justify-center items-center w-full h-full">
                 <div className="max-w-[1000px] justify-start w-full grid">
                     <div className=" sm:text-right pb-8 pl-4">
@@ -12,7 +12,7 @@ const Education = () => {
                     </div>
                 </div>
                 <div className="max-w-[1000px] w-full grid sm:grid-cols-3 gap-8 px-4 text-gray-400 hover:text-[#ffffff] duration-200">
-                    <div className=" text-4xl font-bold col-span-2 ">
+                    <div className=" text-4xl font-normal col-span-2 ">
                         <p className="text-blue-500 ">Generation Thailand</p>
                         <p className="text-base italic ">
                             Junior Software Developer Bootcamp{" "}
@@ -20,21 +20,10 @@ const Education = () => {
                         </p>
                         <ul className="text-xl pt-4 text-gray-500 hover:text-[#ffffff]">
                             <li>
-                                TECHNICAL: HTML, CSS, Bootstrap, JavaScript, Reactjs, Nodejs,
-                                Express, MongoDB
+                                <span className="font-bold">Technical Skills</span>: HTML, CSS, Bootstrap, JavaScript, ReactJS, NodeJS, Express, Web API, SQL, PostgreSQL, MongoDB, Git and GitHub
                             </li>
                             <li>
-                                BSM: Problem solving, Time management, Communication, Agile
-                                Scrum, Project management
-                            </li>
-                            <li>
-                                Projects:
-                                <ul className="pl-8">
-                                    <li>- Colemar (HTML, CSS)</li>
-                                    <li>- Find Your Hat (JaveScript)</li>
-                                    <li>- JAMMMING (Reactjs)</li>
-                                    <li>- iTracker (MERN stacks)</li>
-                                </ul>
+                                <span className="font-bold">Soft Skills</span>: Growth Mindset, Persistence, Future Orientation, Orientation to Details and Teamwork
                             </li>
                         </ul>
                     </div>

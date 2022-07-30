@@ -2,7 +2,7 @@ import React from "react";
 
 const Education = () => {
     return (
-        <div name="education" className="w-full h-auto pt-28 bg-[#0a192f] text-gray-300">
+        <div name="education" className="w-full pt-28 pb-24 bg-[#0C2D48] text-gray-300">
             <div className="flex flex-col justify-center items-center w-full h-full">
                 <div className="max-w-[1000px] justify-start w-full grid">
                     <div className=" sm:text-right pb-8 pl-4">
@@ -29,31 +29,39 @@ const Education = () => {
                     </div>
                     <div className="text-xl py-3 text-center">
                         <p>Jan. 2022 - Apr. 2022</p>
-                        <p>Online, THA</p>
+                        <p>Online, Thailand</p>
                     </div>
                 </div>
 
                 <div className="max-w-[1000px] w-full grid sm:grid-cols-3 gap-8 px-4 pt-10 text-gray-400 hover:text-[#ffffff] duration-200">
                     <div className=" text-4xl font-bold col-span-2">
-                        <p className="text-blue-500 ">Prince of Songkla University</p>
+                        <p className="text-blue-500">Prince of Songkla University</p>
                         <p className="text-base italic ">
-                            Bachelor of Business Administration{" "}
-                            <span className="text-pink-500">(BBA)</span>, Management
+                            Bachelor of Engineering <span className="text-blue-500">(Mechatronics Engineering)</span>
                         </p>
-                        <ul className="text-xl pt-4 text-gray-500 hover:text-[#ffffff]">
-                            <li>2019 Student Leader Activist in "Management"</li>
-                            <li>
-                                1st runner-up Smart Start Idea by GSB Startup topic "Thai Street
-                                Food"
-                            </li>
-                            <li>
-                                Attended 29th J-MAT Award - Marketing plan for "Sauce Todd"
-                            </li>
-                        </ul>
+                        <p className="text-xl pt-4 text-gray-500 hover:text-[#ffffff]">
+                            Full scholarship from Faculty of Engineering (Lookprabida scholarship)
+                        </p>
                     </div>
                     <div className="text-xl py-3 text-center">
                         <p>Jul. 2017 - May 2021</p>
-                        <p>Songkhla, THA</p>
+                        <p>Songkhla, Thailand</p>
+                    </div>
+                </div>
+
+                <div className="max-w-[1000px] w-full grid sm:grid-cols-3 gap-8 px-4 pt-10 text-gray-400 hover:text-[#ffffff] duration-200">
+                    <div className=" text-4xl font-bold col-span-2">
+                        <p className="text-blue-500">PSU Wittayanusorn</p>
+                        <p className="text-base italic ">
+                            Science Classrooms in University-Affiliated School Project <span className="text-blue-500">(SCiUS)</span>
+                        </p>
+                        <p className="text-xl pt-4 text-gray-500 hover:text-[#ffffff]">
+                            With cooperation from the Ministry of Science and Technology, this project supports the training of science from among students with special talents.
+                        </p>
+                    </div>
+                    <div className="text-xl py-3 text-center">
+                        <p>Jul. 2017 - May 2021</p>
+                        <p>Songkhla, Thailand</p>
                     </div>
                 </div>
             </div>

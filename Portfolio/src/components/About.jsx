@@ -16,7 +16,7 @@ const About = () => {
             <p>Hello, there</p>
           </div>
           <div>
-            <p className="text-justify text-2xl indent-10 py-1">
+            <p className="text-justify text-2xl indent-10">
               I have experiences with C, Python, HTML, CSS, Bootstrap, React,
               JavaScript programming skills from the classroom and learning
               beyond classroom with training courses.

@@ -1,4 +1,5 @@
 import React from "react";
+import './Home.css';
 import { HiArrowNarrowRight } from "react-icons/hi";
 import supakrit from "../images/supakrit.jpg";
 import Link from "react-scroll/modules/components/Link";
@@ -6,12 +7,20 @@ import Link from "react-scroll/modules/components/Link";
 const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-[#0C2D48]/75">
-      <div className="container max-w-[1000px] mx-auto px-8 grid grid-cols-3 gap-5 items-center justify-center h-full">
-        <div className="col-span-1 ">
+      <div className="col-span-1 sm:hidden">
           <img
             src={supakrit}
             alt="supakrit's photo"
             className=" rounded-lg hover:rotate-3 duration-300"
+          />
+        </div>
+      <div className="container max-w-[1000px] mx-auto px-8 pt-5 sm:first-line sm:grid sm:grid-cols-3 gap-5 sm:items-center sm:justify-center h-full">
+        <div className="col-span-1 items-end justify-end">
+          <img
+            src={supakrit}
+            alt="supakrit's photo"
+            className="rounded-lg hover:rotate-3 duration-300"
+            id="picture"
           />
         </div>
         <div className=" col-span-2 hover:translate-x-1 duration-300 ">

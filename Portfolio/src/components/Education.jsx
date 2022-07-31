@@ -28,7 +28,7 @@ const Education = () => {
                         </ul>
                     </div>
                     <div className="text-xl py-3 text-center">
-                        <p>Jan. 2022 - Apr. 2022</p>
+                        <p>May 2022 - August 2022</p>
                         <p>Online, Thailand</p>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ const Education = () => {
                         </p>
                     </div>
                     <div className="text-xl py-3 text-center">
-                        <p>Jul. 2017 - May 2021</p>
+                        <p>August 2018 - May 2022</p>
                         <p>Songkhla, Thailand</p>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ const Education = () => {
                         </p>
                     </div>
                     <div className="text-xl py-3 text-center">
-                        <p>Jul. 2017 - May 2021</p>
+                        <p>May 2015 - March 2018</p>
                         <p>Songkhla, Thailand</p>
                     </div>
                 </div>

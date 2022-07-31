@@ -1,8 +1,8 @@
 import React from "react";
 
-const Expereince = () => {
+const Experience = () => {
     return (
-        <div name="experience" className="w-full bg-[#0C2D48] text-gray-300">
+        <div name="experience" className="w-full pt-2 bg-[#0C2D48] text-gray-300">
             <div className="flex flex-col justify-center items-center w-full h-full">
                 <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
                     <div className=" pb-8 pl-4">
@@ -57,4 +57,4 @@ const Expereince = () => {
     );
 }
 
-export default Expereince;
+export default Experience;

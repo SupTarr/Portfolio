@@ -5,8 +5,15 @@ import Link from "react-scroll/modules/components/Link";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#0C2D48]">
+    <div name="home" className="w-full h-screen bg-[#0C2D48]/75">
       <div className="max-w-[1000px] mx-auto px-8 grid grid-cols-3 gap-5 items-center justify-center h-full">
+      <div className="col-span-1">
+          <img
+            src={supakrit}
+            alt="supakrit's photo"
+            className=" rounded-lg hover:rotate-3 duration-300"
+          />
+        </div>
         <div className=" col-span-2 hover:translate-x-1 duration-300 ">
           <div className="text-[#2E8BC0] hover:text-[#B1D4E0] duration-300">
             Greetings, my name is
@@ -41,13 +48,6 @@ const Home = () => {
               </button>
             </Link>
           </div>
-        </div>
-        <div className="col-span-1">
-          <img
-            src={supakrit}
-            alt="supakrit's photo"
-            className=" rounded-lg hover:rotate-3 duration-300"
-          />
         </div>
       </div>
     </div>

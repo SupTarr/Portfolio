@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'; 3
+import video from './videos/Video.mp4';
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -10,16 +11,19 @@ import Experience from './components/Experience';
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Home />
-      <About />
-      <Education />
-      <Experience />
-      <Tech />
-      <Project />
-      <Contact />
-    </> 
+    <div className='w-[100%] h-[100vh]'>
+      <video src={video} autoPlay loop muted className='w-[100%] h-[100%] object-center object-cover' />
+      <div className='absolute w-[100%] h-[100%] top-0'>
+        <Navbar />
+        <Home />
+        <About />
+        <Education />
+        <Experience />
+        <Tech />
+        <Project />
+        <Contact />
+      </div>
+    </div>
   );
 }
 

@@ -14,43 +14,43 @@ const Navbar = () => {
         <img src={Logo} alt="logo PG" style={{ width: "50px" }} />
       </div>
       <ul className="hidden md:flex">
-        <li className="rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] active:text-white focus:outline-none focus:ring focus:ring-violet-300">
+        <li className="text-xl rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] active:text-white focus:outline-none focus:ring focus:ring-violet-300">
           <Link to="home" smooth={true} duration={1000}>
             Home
           </Link>
         </li>
 
-        <li className="rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
+        <li className="text-xl rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
           <Link to="about" smooth={true} duration={1000}>
             About
           </Link>
         </li>
 
-        <li className="rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
+        <li className="text-xl rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
           <Link to="education" smooth={true} duration={1000}>
             Education
           </Link>
         </li>
 
-        <li className="rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
+        <li className="text-xl rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
           <Link to="experience" smooth={true} duration={1000}>
             Expereince
           </Link>
         </li>
 
-        <li className="rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
+        <li className="text-xl rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
           <Link to="skills" smooth={true} duration={1000}>
             Skills
           </Link>
         </li>
 
-        <li className="rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
+        <li className="text-xl rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
           <Link to="projects" smooth={true} duration={1000}>
             Projects
           </Link>
         </li>
 
-        <li className="rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
+        <li className="text-xl rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
           <Link to="contact" smooth={true} duration={1000}>
             Contact
           </Link>

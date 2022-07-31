@@ -6,8 +6,8 @@ import Link from "react-scroll/modules/components/Link";
 const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-[#0C2D48]/75">
-      <div className="max-w-[1000px] mx-auto px-8 grid grid-cols-3 gap-5 items-center justify-center h-full">
-      <div className="col-span-1">
+      <div className="container max-w-[1000px] mx-auto px-8 grid grid-cols-3 gap-5 items-center justify-center h-full">
+        <div className="col-span-1 ">
           <img
             src={supakrit}
             alt="supakrit's photo"
@@ -18,9 +18,12 @@ const Home = () => {
           <div className="text-[#2E8BC0] hover:text-[#B1D4E0] duration-300">
             Greetings, my name is
           </div>
-          <div className="text-4xl sm:text-5xl font-bold text-[#ccd6f6] hover:text-[#ffffff] duration-300">
-            Supakrit Chuchatwannakul
-          </div>
+          <p className="text-4xl sm:text-5xl font-bold text-[#ccd6f6] hover:text-[#ffffff] duration-300">
+            Supakrit
+          </p>
+          <p className="sm:hidden text-4xl sm:text-5xl font-bold text-[#ccd6f6] hover:text-[#ffffff] duration-300">
+            Chuchatwannakul
+          </p>
           <div className="text-4xl sm:text-7xl font-bold text-[#8892b0] hover:text-yellow-400 duration-300">
             A Learner
           </div>

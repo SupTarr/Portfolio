@@ -7,7 +7,7 @@ import { HiOutlineExternalLink } from 'react-icons/hi';
 
 const Project = () => {
   return (
-    <div name='projects' className='w-full text-gray-300 bg-[#0C2D48]'>
+    <div name='projects' className='w-full pt-24 text-gray-300 bg-[#0C2D48]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-green-600'>

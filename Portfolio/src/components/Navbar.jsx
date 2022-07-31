@@ -13,7 +13,7 @@ const Navbar = () => {
       <div>
         <img src={Logo} alt="logo PG" style={{ width: "50px" }} />
       </div>
-      <ul className="hidden md:flex">
+      <ul className="hidden lg:flex">
         <li className="text-xl rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] active:text-white focus:outline-none focus:ring focus:ring-violet-300">
           <Link to="home" smooth={true} duration={1000}>
             Home
@@ -58,74 +58,119 @@ const Navbar = () => {
       </ul>
 
       {/*Hamburger*/}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="lg:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
       {/*Mobile menu*/}
-      <ul
-        className={
-          !nav
-            ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center className= text-4xl"
-        }
+      <div className={
+        !nav
+          ? "hidden"
+          : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center className= text-4xl"
+      }
       >
-        <li className="py-6 text-4xl rounded-xl bg-[#0a192f] hover:bg-[#1e45c5] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
-          <Link onClick={handleClick} to="home" smooth={true} duration={1000}>
-            Home
-          </Link>
-        </li>
+        <div className="flex fixed flex-col top-[35%] left-0">
+          <ul>
+            <li className="text-sm w-[150px] h-[60px] rounded-xl flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-[#000000]">
+              <a
+                className="flex justify-between items-center w-full text-white"
+                href="https://github.com/SupTarr"
+                target="_blank"
+              >
+                GitHub <SiGithub size={30} />
+              </a>
+            </li>
 
-        <li className="py-6 text-4xl rounded-xl bg-[#0a192f] hover:bg-[#1e45c5] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
-          <Link onClick={handleClick} to="about" smooth={true} duration={1000}>
-            About
-          </Link>
-        </li>
+            <li className="text-sm w-[150px] h-[60px] rounded-xl flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-[#1e45c5] ">
+              <a
+                className="flex justify-between items-center w-full text-white"
+                href="https://www.linkedin.com/in/supakrit-chuchatwannakul-727a81179/"
+                target="_blank"
+              >
+                Linkedin <SiLinkedin size={30} />
+              </a>
+            </li>
 
-        <li className="py-6 text-4xl rounded-xl bg-[#0a192f] hover:bg-[#1e45c5] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
-          <Link
-            onClick={handleClick}
-            to="education"
-            smooth={true}
-            duration={500}
-          >
-            Education
-          </Link>
-        </li>
+            <li className="text-sm w-[150px] h-[60px] rounded-xl flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-[#f52121] ">
+              <Link
+                to="contact"
+                smooth={true}
+                duration={500}
+                className="flex justify-between items-center w-full text-white"
+              >
+                Gmail <SiGmail size={30} />
+              </Link>
+            </li>
 
-        <li className="py-6 text-4xl rounded-xl bg-[#0a192f] hover:bg-[#1e45c5] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
-          <Link
-            onClick={handleClick}
-            to="experience"
-            smooth={true}
-            duration={500}
-          >
-            Experience
-          </Link>
-        </li>
+            <li className="text-sm w-[150px] h-[60px] rounded-xl flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-[#000000]">
+              <a
+                className="flex justify-between items-center w-full text-white"
+                href="https://www.canva.com/design/DAEOnBkdY8s/ylHawV7Uw-Jo_oH0Pqx60Q/view?utm_content=DAEOnBkdY8s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                target="_blank"
+              >
+                Resume <BsFillPersonLinesFill size={30} />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <ul>
+          <li className="py-6 text-4xl rounded-xl bg-[#0a192f] hover:bg-[#1e45c5] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
+            <Link onClick={handleClick} to="home" smooth={true} duration={1000}>
+              Home
+            </Link>
+          </li>
 
-        <li className="py-6 text-4xl rounded-xl bg-[#0a192f] hover:bg-[#1e45c5] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={1000}>
-            Skills
-          </Link>
-        </li>
+          <li className="py-6 text-4xl rounded-xl bg-[#0a192f] hover:bg-[#1e45c5] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
+            <Link onClick={handleClick} to="about" smooth={true} duration={1000}>
+              About
+            </Link>
+          </li>
 
-        <li className="py-6 text-4xl rounded-xl bg-[#0a192f] hover:bg-[#1e45c5] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
-          <Link
-            onClick={handleClick}
-            to="projects"
-            smooth={true}
-            duration={500}
-          >
-            Projects
-          </Link>
-        </li>
+          <li className="py-6 text-4xl rounded-xl bg-[#0a192f] hover:bg-[#1e45c5] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
+            <Link
+              onClick={handleClick}
+              to="education"
+              smooth={true}
+              duration={500}
+            >
+              Education
+            </Link>
+          </li>
 
-        <li className="py-6 text-4xl rounded-xl bg-[#0a192f] hover:bg-[#1e45c5] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={1000}>
-            Contact
-          </Link>
-        </li>
-      </ul>
+          <li className="py-6 text-4xl rounded-xl bg-[#0a192f] hover:bg-[#1e45c5] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
+            <Link
+              onClick={handleClick}
+              to="experience"
+              smooth={true}
+              duration={500}
+            >
+              Experience
+            </Link>
+          </li>
+
+          <li className="py-6 text-4xl rounded-xl bg-[#0a192f] hover:bg-[#1e45c5] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
+            <Link onClick={handleClick} to="skills" smooth={true} duration={1000}>
+              Skills
+            </Link>
+          </li>
+
+          <li className="py-6 text-4xl rounded-xl bg-[#0a192f] hover:bg-[#1e45c5] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
+            <Link
+              onClick={handleClick}
+              to="projects"
+              smooth={true}
+              duration={500}
+            >
+              Projects
+            </Link>
+          </li>
+
+          <li className="py-6 text-4xl rounded-xl bg-[#0a192f] hover:bg-[#1e45c5] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
+            <Link onClick={handleClick} to="contact" smooth={true} duration={1000}>
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </div>
       {/*Social icon*/}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>

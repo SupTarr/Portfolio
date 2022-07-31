@@ -58,7 +58,7 @@ const Navbar = () => {
       </ul>
 
       {/*Hamburger*/}
-      <div onClick={handleClick} className="lg:hidden z-10">
+      <div onClick={handleClick} className="xl:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
       {/*Mobile menu*/}
@@ -70,7 +70,7 @@ const Navbar = () => {
       >
         <div className="flex fixed flex-col top-[35%] left-0">
           <ul>
-            <li className="text-sm w-[150px] h-[60px] rounded-xl flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-[#000000]">
+            <li className="text-sm w-[140px] h-[60px] rounded-xl flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-[#000000]">
               <a
                 className="flex justify-between items-center w-full text-white"
                 href="https://github.com/SupTarr"
@@ -80,7 +80,7 @@ const Navbar = () => {
               </a>
             </li>
 
-            <li className="text-sm w-[150px] h-[60px] rounded-xl flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-[#1e45c5] ">
+            <li className="text-sm w-[140px] h-[60px] rounded-xl flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-[#1e45c5] ">
               <a
                 className="flex justify-between items-center w-full text-white"
                 href="https://www.linkedin.com/in/supakrit-chuchatwannakul-727a81179/"
@@ -90,7 +90,7 @@ const Navbar = () => {
               </a>
             </li>
 
-            <li className="text-sm w-[150px] h-[60px] rounded-xl flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-[#f52121] ">
+            <li className="text-sm w-[140px] h-[60px] rounded-xl flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-[#f52121] ">
               <Link
                 to="contact"
                 smooth={true}
@@ -101,7 +101,7 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <li className="text-sm w-[150px] h-[60px] rounded-xl flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-[#000000]">
+            <li className="text-sm w-[140px] h-[60px] rounded-xl flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-[#000000]">
               <a
                 className="flex justify-between items-center w-full text-white"
                 href="https://www.canva.com/design/DAEOnBkdY8s/ylHawV7Uw-Jo_oH0Pqx60Q/view?utm_content=DAEOnBkdY8s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"

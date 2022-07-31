@@ -11,7 +11,7 @@ const Home = () => {
           <img
             src={supakrit}
             alt="supakrit's photo"
-            className="rounded-lg hover:rotate-3 duration-300 w-[75%] mx-auto"
+            className="rounded-lg w-[75%] mx-auto"
           />
         </div>
       <div className="container max-w-[1000px] mx-auto px-8 pt-5 sm:first-line sm:grid sm:grid-cols-3 gap-5 sm:items-center sm:justify-center h-full">
@@ -19,7 +19,7 @@ const Home = () => {
           <img
             src={supakrit}
             alt="supakrit's photo"
-            className="rounded-lg hover:rotate-3 duration-300"
+            className="rounded-lg hover:translate-x-0.5 duration-300"
             id="picture"
           />
         </div>

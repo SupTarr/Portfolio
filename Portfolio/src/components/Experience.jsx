@@ -10,7 +10,7 @@ const Experience = () => {
                             Experience
                         </p>
                     </div>
-                    <div></div>
+  
                     </div>
                     <div className="max-w-[1000px] w-full grid sm:grid-cols-3 gap-8 px-4 text-gray-400 hover:text-[#ffffff] duration-200">
                         <div className=" text-4xl font-bold col-span-2 ">

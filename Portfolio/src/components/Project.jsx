@@ -1,5 +1,7 @@
 import React from 'react';
 import Jammming from '../images/Jammming.png';
+import findYourHat from '../images/findYourHat.png';
+import adhoc from '../images/adhoc.png';
 import Colmar from '../images/ColmarAcademy.png';
 import Ravenous from '../images/Ravenous.png';
 import { SiGithub } from 'react-icons/si';
@@ -17,10 +19,8 @@ const Project = () => {
                 // Check out some of recent Projects.
           </p>
         </div>
-
         {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Colmar})` }}
@@ -33,18 +33,72 @@ const Project = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://github.com/SupTarr/ColmarAcademy' target="_blank">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg active:bg-[#6579bb]'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg active:bg-[#288fff]'>
                     <SiGithub size="2rem" />
                   </button>
                 </a>
                 <a href='https://suptarr.github.io/ColmarAcademy/' target="_blank">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg active:bg-[#6579bb]'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg active:bg-[#288fff]'>
                     <HiOutlineExternalLink size="2rem" />
                   </button>
                 </a>
               </div>
               <p className='text-center'>Stacks: HTML, CSS</p>
               <p className='text-center mx-3'>Make a website from wireframe with HTML, plain CSS, and responsive design</p>
+            </div>
+          </div>
+
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${adhoc})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center my-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 text-center group-hover:opacity-100 duration-300'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Adhoc
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://github.com/SupTarr/Adhoc' target="_blank">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg active:bg-[#288fff]'>
+                    <SiGithub size="2rem" />
+                  </button>
+                </a>
+                <a href='https://suptarr.github.io/Adhoc/' target="_blank">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg active:bg-[#288fff]'>
+                    <HiOutlineExternalLink size="2rem" />
+                  </button>
+                </a>
+              </div>
+              <p className='text-center'>Stacks: HTML, Bootstrap</p>
+              <p className='text-center mx-3'>Make a website from wireframe with HTML, Bootstrap, and responsive design</p>
+            </div>
+          </div>
+
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${findYourHat})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='text-center opacity-0 group-hover:opacity-100 duration-300'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                findYourHat
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://github.com/SupTarr/findYourHat' target="_blank">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg active:bg-[#6579bb]'>
+                    <SiGithub size="2rem" />
+                  </button>
+                </a>
+                <a href='https://replit.com/@SupTarr/findYourHat#README.md' target="_blank">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg active:bg-[#6579bb]'>
+                    <HiOutlineExternalLink size="2rem" />
+                  </button>
+                </a>
+              </div>
+              <p className='text-center'>Stacks: JavaScript</p>
+              <p className='text-center mx-3'>Use a JavaScript (Function, Conditional Statements, and Class) to make a game that control to get a hat without fall in a hole</p>
             </div>
           </div>
           <div
@@ -72,6 +126,7 @@ const Project = () => {
               <p className='text-center mx-3'>Make a website with ReactJS and mange a song data from Spotify API to show a song and add a song to a new Spotify playlist</p>
             </div>
           </div>
+
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Ravenous})` }}

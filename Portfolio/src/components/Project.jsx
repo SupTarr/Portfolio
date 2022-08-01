@@ -83,7 +83,7 @@ const Project = () => {
             {/* Hover Effects */}
             <div className='text-center opacity-0 group-hover:opacity-100 duration-300'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                findYourHat
+                Find Your Hat
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://github.com/SupTarr/findYourHat' target="_blank">

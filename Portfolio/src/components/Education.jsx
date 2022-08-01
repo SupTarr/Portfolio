@@ -11,19 +11,19 @@ const Education = () => {
                         </p>
                     </div>
                 </div>
-                <div className="max-w-[1000px] w-full grid sm:grid-cols-3 gap-8 px-4 text-gray-400 hover:text-[#ffffff] duration-200">
-                    <div className=" text-4xl font-normal col-span-2 ">
+                <div className="max-w-[1000px] w-full grid sm:grid-cols-3 gap-8 px-4 text-[#a3adcc] hover:text-[#ffffff] duration-200">
+                    <div className=" text-4xl font-bold col-span-2 ">
                         <p className="text-blue-500 ">Generation Thailand</p>
-                        <p className="text-base italic ">
+                        <p className="text-lg italic ">
                             Junior Software Developer Bootcamp{" "}
                             <span className="text-blue-500">(JSD)</span>
                         </p>
-                        <ul className="text-xl pt-4 text-gray-500 hover:text-[#ffffff]">
+                        <ul className="text-xl pt-4 text-[#a3adcc] hover:text-[#ffffff]">
                             <li>
-                                <span className="font-bold">Technical Skills</span>: HTML, CSS, Bootstrap, JavaScript, ReactJS, NodeJS, Express, Web API, SQL, PostgreSQL, MongoDB, Git and GitHub
+                                <span className="font-bold italic">Technical Skills </span>: <span className="font-[550]">HTML, CSS, Bootstrap, JavaScript, ReactJS, NodeJS, Express, Web API, SQL, PostgreSQL, MongoDB, Git and GitHub</span>
                             </li>
                             <li>
-                                <span className="font-bold">Soft Skills</span>: Growth Mindset, Persistence, Future Orientation, Orientation to Details and Teamwork
+                                <span className="font-bold italic underline-offset-auto">Soft Skills </span>: <span className="font-[550]">Growth Mindset, Persistence, Future Orientation, Orientation to Details and Teamwork</span>
                             </li>
                         </ul>
                     </div>
@@ -33,15 +33,15 @@ const Education = () => {
                     </div>
                 </div>
 
-                <div className="max-w-[1000px] w-full grid sm:grid-cols-3 gap-8 px-4 pt-10 text-gray-400 hover:text-[#ffffff] duration-200">
+                <div className="max-w-[1000px] w-full grid sm:grid-cols-3 gap-8 px-4 pt-10 text-[#a3adcc] hover:text-[#ffffff] duration-200">
                     <div className=" text-4xl font-bold col-span-2">
                         <p className="text-blue-500">Prince of Songkla University</p>
-                        <p className="text-base italic ">
+                        <p className="text-lg italic ">
                             Bachelor of Engineering <span className="text-blue-500">(Mechatronics Engineering)</span>
                         </p>
-                        <p className="text-xl pt-4 text-gray-500 hover:text-[#ffffff]">
-                            Full scholarship from Faculty of Engineering (Lookprabida scholarship)
-                        </p>
+                        <ul className="text-xl pt-4 text-[#a3adcc] hover:text-[#ffffff]">
+                            <li>Full scholarship from Faculty of Engineering (Lookprabida scholarship)</li>
+                        </ul>
                     </div>
                     <div className="text-xl py-3 text-center">
                         <p>August 2018 - May 2022</p>
@@ -49,15 +49,15 @@ const Education = () => {
                     </div>
                 </div>
 
-                <div className="max-w-[1000px] w-full grid sm:grid-cols-3 gap-8 px-4 pt-10 text-gray-400 hover:text-[#ffffff] duration-200">
+                <div className="max-w-[1000px] w-full grid sm:grid-cols-3 gap-8 px-4 pt-10 text-[#a3adcc] hover:text-[#ffffff] duration-200">
                     <div className=" text-4xl font-bold col-span-2">
                         <p className="text-blue-500">PSU Wittayanusorn</p>
-                        <p className="text-base italic ">
+                        <p className="text-lg italic ">
                             Science Classrooms in University-Affiliated School Project <span className="text-blue-500">(SCiUS)</span>
                         </p>
-                        <p className="text-xl pt-4 text-gray-500 hover:text-[#ffffff]">
-                            With cooperation from the Ministry of Science and Technology, this project supports the training of science from among students with special talents.
-                        </p>
+                        <ul className="text-xl pt-4 text-[#a3adcc] hover:text-[#ffffff]">
+                            <li>With cooperation from the Ministry of Science and Technology, this project supports the training of science from among students with special talents.</li>
+                        </ul>
                     </div>
                     <div className="text-xl py-3 text-center">
                         <p>May 2015 - March 2018</p>

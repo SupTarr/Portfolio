@@ -24,7 +24,7 @@ const Home = () => {
           />
         </div>
         <div className=" col-span-2 hover:translate-x-1 duration-300 ">
-          <div className="text-[#ccd6f6] hover:text-yellow-400 duration-300">
+          <div className="text-xl text-[#ccd6f6] hover:text-yellow-400 duration-300">
             Greetings, my name is
           </div>
           <p className="text-2xl sm:text-5xl font-bold text-[#ccd6f6] hover:text-[#ffffff] duration-300">
@@ -33,17 +33,14 @@ const Home = () => {
           <p className="text-2xl sm:text-5xl font-bold text-[#ccd6f6] hover:text-[#ffffff] duration-300">
             Chuchatwannakul
           </p>
-          <div className="text-xl sm:text-7xl font-bold text-[#8892b0] hover:text-yellow-400 duration-300">
-            A Learner
+          <div className="text-xl sm:text-3xl font-bold text-[#8892b0] hover:text-yellow-400 duration-300">
+            Software Engineer
           </div>
-          <div className="text-[#8892b0] text-l sm:text-xl py-4 max-w-[700px] text-justify hover:text-[#eaedf8] duration-300">
-            I am <span className="text-[#ccd6f6]">"Supakrit"</span> or
-            <span className="text-[#ccd6f6]"> "Tata"</span>, a first jobber who
-            reskilled from business field to tech field. Highly interested in
-            <span className="text-[#ccd6f6]"> Bitcoin, Health,</span> and{" "}
-            <span className="text-[#ccd6f6]"> Social Development.</span> Enjoy
-            learning new techs and seeing things grow. Want to make an impact to
-            minimize inequality.
+          <div className="text-[#a3adcc] text-l sm:text-2xl py-4 max-w-[700px] text-justify hover:text-[#eaedf8] duration-300">
+            I am <span className="text-[#eff0f2]">"Supakrit"</span> or
+            <span className="text-[#ccd6f6]"> "Tata"</span>, a recent graduate in the field of Mechatronics engineering who wants to pursue a career in technology field. Highly interested in
+            <span className="text-[#eff0f2]"> Investment, Health,</span> and{" "}
+            <span className="text-[#eff0f2]"> Programming</span>. I enjoy learning new technologies and solving problems in order to create new things.
           </div>
 
           <div>
@@ -54,7 +51,7 @@ const Home = () => {
                 target="_blank"
               >
                 View more
-                <span className="group-hover:rotate-90 group-hover:-translate-y-1 group-hover:translate-x-1 duration-300">
+                <span className="group-hover:rotate-90 group-hover:-translate-y-1 group-hover:translate-x-2 duration-300">
                   <HiArrowNarrowRight className="ml-3" />
                 </span>
               </button>

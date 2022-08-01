@@ -6,7 +6,7 @@ import Link from "react-scroll/modules/components/Link";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-full bg-[#0C2D48]/75" id="home">
+    <div name="home" className="w-full h-full bg-[#0C2D48]/80" id="home">
       <div className="col-span-1 sm:hidden">
           <img
             src={supakrit}
@@ -19,12 +19,12 @@ const Home = () => {
           <img
             src={supakrit}
             alt="supakrit's photo"
-            className="rounded-lg hover:translate-x-0.5 duration-300"
+            className="rounded-lg hover:translate-x-1 duration-300"
             id="picture"
           />
         </div>
         <div className=" col-span-2 hover:translate-x-1 duration-300 ">
-          <div className="text-[#2E8BC0] hover:text-[#B1D4E0] duration-300">
+          <div className="text-[#ccd6f6] hover:text-yellow-400 duration-300">
             Greetings, my name is
           </div>
           <p className="text-2xl sm:text-5xl font-bold text-[#ccd6f6] hover:text-[#ffffff] duration-300">
@@ -54,8 +54,8 @@ const Home = () => {
                 target="_blank"
               >
                 View more
-                <span className="group-hover:rotate-90 duration-300">
-                  <HiArrowNarrowRight className="ml-3 " />
+                <span className="group-hover:rotate-90 group-hover:-translate-y-1 group-hover:translate-x-1 duration-300">
+                  <HiArrowNarrowRight className="ml-3" />
                 </span>
               </button>
             </Link>

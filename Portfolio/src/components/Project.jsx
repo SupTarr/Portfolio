@@ -44,7 +44,7 @@ const Project = () => {
                 </a>
               </div>
               <p className='text-center'>Stacks: HTML, CSS</p>
-              <p className='text-center mx-3'>Make a website from wireframe with HTML, plain CSS, and responsive design</p>
+              <p className='text-center mx-3'>Made a website from wireframe with HTML, plain CSS, and responsive design</p>
             </div>
           </div>
 
@@ -71,7 +71,7 @@ const Project = () => {
                 </a>
               </div>
               <p className='text-center'>Stacks: HTML, Bootstrap</p>
-              <p className='text-center mx-3'>Make a website from wireframe with HTML, Bootstrap, and responsive design</p>
+              <p className='text-center mx-3'>Made a website from wireframe with HTML, Bootstrap, and responsive design</p>
             </div>
           </div>
 
@@ -98,7 +98,7 @@ const Project = () => {
                 </a>
               </div>
               <p className='text-center'>Stacks: JavaScript</p>
-              <p className='text-center mx-3'>Use a JavaScript (Function, Conditional Statements, and Class) to make a game that control to get a hat without fall in a hole</p>
+              <p className='text-center mx-3'>Used a JavaScript (Function, Conditional Statements, and Class) to make a game that controlled to get a hat without falling into a hole</p>
             </div>
           </div>
           <div
@@ -123,7 +123,7 @@ const Project = () => {
                 </a>
               </div>
               <p className='text-center'>Stacks: HTML, CSS, JavaScript, ReactJS</p>
-              <p className='text-center mx-3'>Make a website with ReactJS and mange a song data from Spotify API to show a song and add a song to a new Spotify playlist</p>
+              <p className='text-center mx-3'>Made a website with ReactJS and managed a song data from Spotify API to show a song and added a song to a new Spotify playlist</p>
             </div>
           </div>
 
@@ -150,7 +150,7 @@ const Project = () => {
                 </a>
               </div>
               <p className='text-center'>Stacks: HTML, CSS, JavaScript, ReactJS</p>
-              <p className='text-center mx-3'>Make a website with ReactJS and mange businesses data from Yelp API to show each data</p>
+              <p className='text-center mx-3'>Made a website with ReactJS and managed businesses data from Yelp API to show each data</p>
             </div>
           </div>
         </div>

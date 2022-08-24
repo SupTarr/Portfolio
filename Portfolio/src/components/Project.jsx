@@ -4,6 +4,7 @@ import findYourHat from '../images/findYourHat.png';
 import adhoc from '../images/adhoc.png';
 import Colmar from '../images/ColmarAcademy.png';
 import Ravenous from '../images/Ravenous.png';
+import Immifit from '../images/Immifit.png';
 import { SiGithub } from 'react-icons/si';
 import { HiOutlineExternalLink } from 'react-icons/hi';
 
@@ -101,6 +102,8 @@ const Project = () => {
               <p className='text-center mx-3'>Used a JavaScript (Function, Conditional Statements, and Class) to make a game that controlled to get a hat without falling into a hole</p>
             </div>
           </div>
+
+          {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Jammming})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -151,6 +154,33 @@ const Project = () => {
               </div>
               <p className='text-center'>Stacks: HTML, CSS, JavaScript, ReactJS</p>
               <p className='text-center mx-3'>Made a website with ReactJS and managed businesses data from Yelp API to show each data</p>
+            </div>
+          </div>
+
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${Immifit})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='text-center opacity-0 group-hover:opacity-100 duration-300'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Immifit
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://github.com/SupTarr/FrontendImmifit' target="_blank">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg active:bg-[#6579bb]'>
+                    <SiGithub size="2rem" />
+                  </button>
+                </a>
+                <a href='https://immifit.vercel.app/' target="_blank">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg active:bg-[#6579bb]'>
+                    <HiOutlineExternalLink size="2rem" />
+                  </button>
+                </a>
+              </div>
+              <p className='text-center'>Stacks: MongoDB, Express, ReactJS, NodeJS</p>
+              <p className='text-center mx-3'>Made a website application with MERN stack for exercise tracker</p>
             </div>
           </div>
         </div>

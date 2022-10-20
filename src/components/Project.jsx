@@ -1,11 +1,11 @@
 import React from "react";
-import Colmar from "../images/ColmarAcademy.png"
-import Adhoc from "../images/adhoc.png"
-import findYourHat from "../images/findYourHat.png"
-import Jammming from "../images/Jammming.png"
-import Ravenous from "../images/Ravenous.png"
-import Immifit from "../images/Immifit.png"
-import myIntroInReason from "../images/myIntroInReason.png"
+import Colmar from "../images/ColmarAcademy.png";
+import Adhoc from "../images/adhoc.png";
+import findYourHat from "../images/findYourHat.png";
+import Jammming from "../images/Jammming.png";
+import Ravenous from "../images/Ravenous.png";
+import Immifit from "../images/Immifit.png";
+import myIntroInReason from "../images/myIntroInReason.png";
 import { SiGithub } from "react-icons/si";
 import { HiOutlineExternalLink } from "react-icons/hi";
 
@@ -100,28 +100,43 @@ const Project = () => {
                   </span>
                   <div className="pt-8 text-center">
                     {Array.isArray(project.gitHub) ? (
-                      project.gitHub.map(
-                        (link, index) => (
-                          console.log(link),
-                          (
-                            <a title={link} href={link} target="_blank" key={index}>
-                              <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg active:bg-[#288fff]">
-                                <SiGithub size="2rem" />
-                              </button>
-                            </a>
-                          )
-                        )
-                      )
+                      project.gitHub.map((link, index) => (
+                        <a title={link} href={link} target="_blank" key={index}>
+                          <button
+                            title={link}
+                            className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg active:bg-[#288fff]"
+                          >
+                            <SiGithub title={link} size="2rem" />
+                          </button>
+                        </a>
+                      ))
                     ) : (
-                      <a title={project.gitHub} href={project.gitHub} target="_blank">
-                        <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg active:bg-[#288fff]">
-                          <SiGithub size="2rem" />
+                      <a
+                        title={project.gitHub}
+                        href={project.gitHub}
+                        target="_blank"
+                      >
+                        <button
+                          title={project.gitHub}
+                          className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg active:bg-[#288fff]"
+                        >
+                          <SiGithub title={project.gitHub} size="2rem" />
                         </button>
                       </a>
                     )}
-                    <a href={project.liveSite} target="_blank">
-                      <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg active:bg-[#288fff]">
-                        <HiOutlineExternalLink size="2rem" />
+                    <a
+                      title={project.liveSite}
+                      href={project.liveSite}
+                      target="_blank"
+                    >
+                      <button
+                        title={project.liveSite}
+                        className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg active:bg-[#288fff]"
+                      >
+                        <HiOutlineExternalLink
+                          title={project.liveSite}
+                          size="2rem"
+                        />
                       </button>
                     </a>
                   </div>

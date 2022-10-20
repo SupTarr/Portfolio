@@ -104,7 +104,7 @@ const Navbar = () => {
             <li className="text-sm w-[140px] h-[60px] rounded-xl flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-[#000000]">
               <a
                 className="flex justify-between items-center w-full text-white"
-                href="https://www.canva.com/design/DAEOnBkdY8s/ylHawV7Uw-Jo_oH0Pqx60Q/view?utm_content=DAEOnBkdY8s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                href="https://drive.google.com/file/d/1mLlHtbb6MbW9ncpP-E2h_TSFpYs2QzS_/view?usp=sharing"
                 target="_blank"
               >
                 Resume <BsFillPersonLinesFill size={30} />
@@ -208,7 +208,7 @@ const Navbar = () => {
           <li className="w-[140px] h-[60px] rounded-xl flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-[#000000]">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="https://www.canva.com/design/DAEOnBkdY8s/ylHawV7Uw-Jo_oH0Pqx60Q/view?utm_content=DAEOnBkdY8s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+              href="https://drive.google.com/file/d/1mLlHtbb6MbW9ncpP-E2h_TSFpYs2QzS_/view?usp=sharing"
               target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} />

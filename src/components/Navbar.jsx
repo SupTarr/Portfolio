@@ -9,7 +9,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[75px] flex justify-between items-center px-4 bg-[#145DA0] text-gray-300">
+    <div className="fixed w-full h-[75px] z-50 flex justify-between items-center px-4 bg-[#145DA0] text-gray-300">
       <div>
         <img src={Logo} alt="logo PG" style={{ width: "50px" }} />
       </div>

@@ -104,7 +104,7 @@ const Project = () => {
                         (link, index) => (
                           console.log(link),
                           (
-                            <a href={link} target="_blank" key={index}>
+                            <a title={link} href={link} target="_blank" key={index}>
                               <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg active:bg-[#288fff]">
                                 <SiGithub size="2rem" />
                               </button>
@@ -113,7 +113,7 @@ const Project = () => {
                         )
                       )
                     ) : (
-                      <a href={project.gitHub} target="_blank">
+                      <a title={project.gitHub} href={project.gitHub} target="_blank">
                         <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg active:bg-[#288fff]">
                           <SiGithub size="2rem" />
                         </button>

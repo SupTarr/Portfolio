@@ -17,11 +17,13 @@ const About = () => {
           </div>
           <div>
             <p className="text-justify text-2xl indent-10">
-              I learned <span className="text-yellow-300">C</span> and{" "}
+              I recently completed the Bachelor of Engineering Program in
+              Mechatronics Engineering. I learned{" "}
+              <span className="text-yellow-300">C</span> and{" "}
               <span className="text-yellow-300">Python</span> programming in
               university and have some experience with both. While at Generation
               Thailand's Junior Software Developer Bootcamp, I learned{" "}
-              <span className="text-yellow-300">full-stack developer</span>{" "}
+              <span className="text-yellow-300">MERN full-stack developer</span>{" "}
               skills to shift careers.
             </p>
           </div>

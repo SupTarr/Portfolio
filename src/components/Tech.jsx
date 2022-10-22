@@ -1,6 +1,6 @@
 import React from 'react';
 import C from '../images/c-logo.png';
-import Python from '../images/Python-logo.png';
+import Python from '../images/python-logo.png';
 import Html from '../images/html.png';
 import Css3 from '../images/css.png';
 import Bootstrap from '../images/bootstrap-logo.svg';

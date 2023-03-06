@@ -1,4 +1,4 @@
-import React from 'react'; 3
+import React from 'react';
 import video from './videos/Video.mp4';
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";

@@ -16,7 +16,7 @@ const projectLists = [
     gitHub: "https://github.com/SupTarr/ColmarAcademy",
     liveSite: "https://suptarr.github.io/ColmarAcademy/",
     stacks: "HTML, CSS",
-    desscription:
+    description:
       "Made a website from wireframe with HTML, plain CSS, and responsive design",
   },
   {
@@ -25,7 +25,7 @@ const projectLists = [
     gitHub: "https://github.com/SupTarr/Adhoc",
     liveSite: "https://suptarr.github.io/Adhoc/",
     stacks: "HTML, Bootstrap",
-    desscription:
+    description:
       "Made a website from wireframe with HTML, Bootstrap, and responsive design",
   },
   {
@@ -34,7 +34,7 @@ const projectLists = [
     gitHub: "https://github.com/SupTarr/findYourHat",
     liveSite: "https://replit.com/@SupTarr/findYourHat#README.md",
     stacks: "JavaScript",
-    desscription:
+    description:
       "Used a JavaScript (Function, Conditional Statements, and Class) to make a game that controlled to get a hat without falling into a hole",
   },
   {
@@ -43,7 +43,7 @@ const projectLists = [
     gitHub: "https://github.com/SupTarr/Jammming",
     liveSite: "https://tarjammming.surge.sh/",
     stacks: "HTML, CSS, JavaScript, ReactJS",
-    desscription:
+    description:
       "Made a website with ReactJS and managed a song data from Spotify API to show a song and added a song to a new Spotify playlist",
   },
   {
@@ -52,7 +52,7 @@ const projectLists = [
     gitHub: "https://github.com/SupTarr/Ravenous",
     liveSite: "https://supravenous.surge.sh/",
     stacks: "HTML, CSS, JavaScript, ReactJS",
-    desscription:
+    description:
       "Made a website with ReactJS and managed businesses data from Yelp API to show each data",
   },
   {
@@ -64,7 +64,7 @@ const projectLists = [
     ],
     liveSite: "https://immifit.vercel.app/",
     stacks: "MongoDB, Express, ReactJS, NodeJS",
-    desscription:
+    description:
       "Made a website application with MERN stack for exercise tracker",
   },
   {
@@ -73,7 +73,7 @@ const projectLists = [
     gitHub: "https://github.com/SupTarr/myIntroInReason",
     liveSite: "https://suptarrescript.surge.sh/",
     stacks: "HTML, CSS, JavaScript, ReactJS, ReScript",
-    desscription:
+    description:
       "My introduction to the ReScript that combined with React to make a React component",
   },
 ];
@@ -141,7 +141,7 @@ const Project = () => {
                     </a>
                   </div>
                   <p className="text-center">{"Stacks: " + project.stacks}</p>
-                  <p className="text-center mx-3">{project.desscription}</p>
+                  <p className="text-center mx-3">{project.description}</p>
                 </div>
               </div>
             ))}

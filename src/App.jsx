@@ -25,7 +25,7 @@ function App() {
             "Home",
             "About",
             "Education",
-            "Expereince",
+            "Experience",
             "Skills",
             "Projects",
             "Contact",

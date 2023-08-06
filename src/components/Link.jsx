@@ -1,11 +1,11 @@
 import React from "react";
 import { Link as LinkTo } from "react-scroll";
 
-const Link = (name) => {
+const Link = ({ name }) => {
   return (
     <li className="text-xl rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] active:text-white focus:outline-none focus:ring focus:ring-violet-300">
-      <LinkTo to={name.toLowercase()} smooth={true} duration={1000}>
-        name
+      <LinkTo to={name.toLowerCase()} smooth={true} duration={1000}>
+        {name}
       </LinkTo>
     </li>
   );

@@ -10,7 +10,7 @@ const Projects = ({ lists }) => {
             Projects
           </p>
           <p className="py-6 text-2xl">// Check out some of recent Projects.</p>
-          <section className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+          <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {lists.map((project, index) => (
               <Project
                 key={`project-${index}`}

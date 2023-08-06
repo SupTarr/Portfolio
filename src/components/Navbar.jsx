@@ -1,72 +1,33 @@
 import React, { useState } from "react";
+import Links from "./Links";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { SiGmail, SiGithub, SiFacebook, SiLinkedin } from "react-icons/si";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../images/logo.png";
 import { Link } from "react-scroll";
 
-const Navbar = () => {
+const Navbar = ({ destinations }) => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+
   return (
     <div className="fixed w-full h-[75px] z-50 flex justify-between items-center px-4 bg-[#145DA0] text-gray-300">
       <div>
         <img src={Logo} alt="logo PG" style={{ width: "50px" }} />
       </div>
-      <ul className="hidden lg:flex">
-        <li className="text-xl rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] active:text-white focus:outline-none focus:ring focus:ring-violet-300">
-          <Link to="home" smooth={true} duration={1000}>
-            Home
-          </Link>
-        </li>
-
-        <li className="text-xl rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
-          <Link to="about" smooth={true} duration={1000}>
-            About
-          </Link>
-        </li>
-
-        <li className="text-xl rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
-          <Link to="education" smooth={true} duration={1000}>
-            Education
-          </Link>
-        </li>
-
-        <li className="text-xl rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
-          <Link to="experience" smooth={true} duration={1000}>
-            Expereince
-          </Link>
-        </li>
-
-        <li className="text-xl rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
-          <Link to="skills" smooth={true} duration={1000}>
-            Skills
-          </Link>
-        </li>
-
-        <li className="text-xl rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
-          <Link to="projects" smooth={true} duration={1000}>
-            Projects
-          </Link>
-        </li>
-
-        <li className="text-xl rounded-xl bg-[#145DA0] hover:bg-[#0C2D48] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
-          <Link to="contact" smooth={true} duration={1000}>
-            Contact
-          </Link>
-        </li>
-      </ul>
+      <Links destinations={destinations} />
 
       {/*Hamburger*/}
       <div onClick={handleClick} className="xl:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
       {/*Mobile menu*/}
-      <div className={
-        !nav
-          ? "hidden"
-          : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center className= text-4xl"
-      }
+      <div
+        className={
+          !nav
+            ? "hidden"
+            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center className= text-4xl"
+        }
       >
         <div className="flex fixed flex-col top-[35%] left-0">
           <ul>
@@ -120,7 +81,12 @@ const Navbar = () => {
           </li>
 
           <li className="py-6 text-4xl rounded-xl bg-[#0a192f] hover:bg-[#1e45c5] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
-            <Link onClick={handleClick} to="about" smooth={true} duration={1000}>
+            <Link
+              onClick={handleClick}
+              to="about"
+              smooth={true}
+              duration={1000}
+            >
               About
             </Link>
           </li>
@@ -148,7 +114,12 @@ const Navbar = () => {
           </li>
 
           <li className="py-6 text-4xl rounded-xl bg-[#0a192f] hover:bg-[#1e45c5] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
-            <Link onClick={handleClick} to="skills" smooth={true} duration={1000}>
+            <Link
+              onClick={handleClick}
+              to="skills"
+              smooth={true}
+              duration={1000}
+            >
               Skills
             </Link>
           </li>
@@ -165,7 +136,12 @@ const Navbar = () => {
           </li>
 
           <li className="py-6 text-4xl rounded-xl bg-[#0a192f] hover:bg-[#1e45c5] duration-200 active:bg-[#1e45c5] focus:outline-none focus:ring focus:ring-violet-300">
-            <Link onClick={handleClick} to="contact" smooth={true} duration={1000}>
+            <Link
+              onClick={handleClick}
+              to="contact"
+              smooth={true}
+              duration={1000}
+            >
               Contact
             </Link>
           </li>

@@ -17,7 +17,9 @@ const Techs = ({ lists }) => {
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           {lists.map((list, index) => {
-            <Tech key={`tect-${index}`} name={list.name} image={list.image} />;
+            return (
+              <Tech key={`tech-${index}`} name={list.name} image={list.image} />
+            );
           })}
         </div>
       </div>

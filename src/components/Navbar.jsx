@@ -36,7 +36,7 @@ const Navbar = ({ destinations }) => {
       <Links destinations={destinations} />
 
       {/* Hamburger */}
-      <div onClick={handleClick} className="xl:hidden z-10">
+      <div onClick={handleClick} className="lg:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 

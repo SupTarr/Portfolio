@@ -48,7 +48,9 @@ const Experience = () => {
               <li className="italic">
                 Smart Agricultural Robot Contest 2020
                 <ul className="not-italic px-2 list-[circle] text-xl pt-2 pb-4 text-[#a3adcc] hover:text-[#ffffff]">
-                  <li className="font-[550]">Led a team to build a land leveling robot</li>
+                  <li className="font-[550]">
+                    Led a team to build a land leveling robot
+                  </li>
                   <li className="font-[550]">
                     Designed a blade for spread out soil and laser system for
                     measure land level
@@ -62,7 +64,9 @@ const Experience = () => {
                     Mechatronics System Design: Types and important parts, Robot
                     control system (open loop and close loop control systems)
                   </li>
-                  <li className="font-[550]">CAD for design a mechanism part of robot gripper</li>
+                  <li className="font-[550]">
+                    CAD for design a mechanism part of robot gripper
+                  </li>
                 </ul>
               </li>
               <li className="italic">

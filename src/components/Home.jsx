@@ -42,7 +42,8 @@ const Home = () => {
             in the field of Mechatronics engineering who wants to pursue a
             career in technology field. Highly interested in
             <span className="text-[#eff0f2]">
-              {" "} Investment, Health,
+              {" "}
+              Investment, Health,
             </span> and <span className="text-[#eff0f2]"> Programming</span>. I
             enjoy learning new technologies and solving problems in order to
             create new things.

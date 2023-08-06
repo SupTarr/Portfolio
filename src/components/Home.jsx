@@ -1,5 +1,4 @@
 import React from "react";
-import "./Home.css";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import supakrit from "../images/supakrit.jpg";
 import Link from "react-scroll/modules/components/Link";

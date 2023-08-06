@@ -4,18 +4,18 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full pt-24 bg-[#0C2D48] flex justify-center items-center p-4"
+      className="flex w-full items-center justify-center bg-[#0C2D48] p-4 pt-24"
     >
       <form
         method="POST"
         action="https://getform.io/f/02c422e0-b70e-4691-a1b9-f0fc1b804ad4"
-        className="flex flex-col max-w-[700px] w-full"
+        className="flex w-full max-w-[700px] flex-col"
       >
         <div className="pb-8 text-xl">
-          <p className="text-4xl font-bold inline border-b-4 border-red-600 text-gray-300">
+          <p className="inline border-b-4 border-red-600 text-4xl font-bold text-gray-300">
             Contact
           </p>
-          <p className="text-2xl text-gray-300 py-4">
+          <p className="py-4 text-2xl text-gray-300">
             // Submit the form below or sent an email to tatasuppakrit@gmail.com
           </p>
         </div>
@@ -26,7 +26,7 @@ const Contact = () => {
           name="name"
         />
         <input
-          className="my-4 p-2 bg-[#ccd6f6]"
+          className="my-4 bg-[#ccd6f6] p-2"
           type="email"
           placeholder="Email"
           name="email"
@@ -37,7 +37,7 @@ const Contact = () => {
           rows="8"
           placeholder="Message"
         ></textarea>
-        <button className="text-white rounded-lg border-2 hover:bg-red-600 duration-200 hover:border-red-600 active:bg-white px-4 py-3 my-8 mx-auto flex items-center">
+        <button className="my-8 mx-auto flex items-center rounded-lg border-2 px-4 py-3 text-white duration-200 hover:border-red-600 hover:bg-red-600 active:bg-white">
           Email me
         </button>
       </form>

@@ -3,11 +3,11 @@ import Tech from "./Tech";
 
 const Techs = ({ lists }) => {
   return (
-    <div name="skills" className="w-full pt-24 bg-[#0C2D48] text-gray-300">
+    <div name="skills" className="w-full bg-[#0C2D48] pt-24 text-gray-300">
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="mx-auto flex h-full w-full max-w-[1000px] flex-col justify-center p-4">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">
+          <p className="inline border-b-4 border-pink-600 text-4xl font-bold ">
             Skills
           </p>
           <p className="py-4 text-2xl">
@@ -15,7 +15,7 @@ const Techs = ({ lists }) => {
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+        <div className="grid w-full grid-cols-2 gap-4 py-8 text-center sm:grid-cols-4">
           {lists.map((list, index) => {
             return (
               <Tech key={`tech-${index}`} name={list.name} image={list.image} />

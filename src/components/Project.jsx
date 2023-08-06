@@ -6,10 +6,10 @@ const Project = ({ name, gitHub, image, liveSite, stacks, description }) => {
   return (
     <div
       style={{ backgroundImage: `url(${image})` }}
-      className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center my-auto content-div"
+      className="content-div group container my-auto flex items-center justify-center rounded-md shadow-lg shadow-[#040c16]"
     >
-      <div className="opacity-0 text-center group-hover:opacity-100 duration-300">
-        <span className="text-2xl font-bold text-white tracking-wider">
+      <div className="text-center opacity-0 duration-300 group-hover:opacity-100">
+        <span className="text-2xl font-bold tracking-wider text-white">
           {name}
         </span>
         <div className="pt-8 text-center">
@@ -18,7 +18,7 @@ const Project = ({ name, gitHub, image, liveSite, stacks, description }) => {
               <a title={link} href={link} target="_blank" key={index}>
                 <button
                   title={link}
-                  className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg active:bg-[#288fff]"
+                  className="m-2 rounded-lg bg-white px-4 py-3 text-center text-lg font-bold text-gray-700 active:bg-[#288fff]"
                 >
                   <SiGithub title={link} size="2rem" />
                 </button>
@@ -28,7 +28,7 @@ const Project = ({ name, gitHub, image, liveSite, stacks, description }) => {
             <a title={gitHub} href={gitHub} target="_blank">
               <button
                 title={gitHub}
-                className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg active:bg-[#288fff]"
+                className="m-2 rounded-lg bg-white px-4 py-3 text-center text-lg font-bold text-gray-700 active:bg-[#288fff]"
               >
                 <SiGithub title={gitHub} size="2rem" />
               </button>
@@ -37,14 +37,14 @@ const Project = ({ name, gitHub, image, liveSite, stacks, description }) => {
           <a title={liveSite} href={liveSite} target="_blank">
             <button
               title={liveSite}
-              className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg active:bg-[#288fff]"
+              className="m-2 rounded-lg bg-white px-4 py-3 text-center text-lg font-bold text-gray-700 active:bg-[#288fff]"
             >
               <HiOutlineExternalLink title={liveSite} size="2rem" />
             </button>
           </a>
         </div>
         <p className="text-center">{"Stacks: " + stacks}</p>
-        <p className="text-center mx-3">{description}</p>
+        <p className="mx-3 text-center">{description}</p>
       </div>
     </div>
   );

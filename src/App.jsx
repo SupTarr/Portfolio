@@ -3,11 +3,26 @@ import video from "./videos/Video.mp4";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
-import Tech from "./components/Tech";
+import Techs from "./components/Techs";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
+
+import C from "./images/c-logo.png";
+import Python from "./images/python-logo.png";
+import Html from "./images/html.png";
+import Css3 from "./images/css.png";
+import Bootstrap from "./images/bootstrap-logo.svg";
+import Tailwind from "./images/tailwind.png";
+import JavaScript from "./images/javascript.png";
+import reScript from "./images/rescript.png";
+import ReactImg from "./images/react.png";
+import Node from "./images/node.png";
+import Mongo from "./images/mongodb.png";
+import SQL from "./images/SQL.png";
+import Git from "./images/Git-logo.png";
+import GitHub from "./images/github.png";
 
 import Colmar from "./images/ColmarAcademy.png";
 import Adhoc from "./images/adhoc.png";
@@ -43,7 +58,66 @@ function App() {
         <About />
         <Education />
         <Experience />
-        <Tech />
+        <Techs
+          lists={[
+            {
+              name: "C",
+              image: C,
+            },
+            {
+              name: "Python",
+              image: Python,
+            },
+            {
+              name: "Html",
+              image: Html,
+            },
+            {
+              name: "Css3",
+              image: Css3,
+            },
+            {
+              name: "Bootstrap",
+              image: Bootstrap,
+            },
+            {
+              name: "Tailwind",
+              image: Tailwind,
+            },
+            {
+              name: "JavaScript",
+              image: JavaScript,
+            },
+            {
+              name: "reScript",
+              image: reScript,
+            },
+            {
+              name: "ReactImg",
+              image: ReactImg,
+            },
+            {
+              name: "Node",
+              image: Node,
+            },
+            {
+              name: "Mongo",
+              image: Mongo,
+            },
+            {
+              name: "SQL",
+              image: SQL,
+            },
+            {
+              name: "Git",
+              image: Git,
+            },
+            {
+              name: "GitHub",
+              image: GitHub,
+            },
+          ]}
+        />
         <Projects
           lists={[
             {

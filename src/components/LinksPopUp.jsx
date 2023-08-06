@@ -4,7 +4,7 @@ import Informations from "./Informations";
 
 const LinksPopUp = ({ destinations, informationsList, handleClick }) => {
   return (
-    <div className="absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center className= text-4xl">
+    <div className="className= absolute top-0 left-0 flex h-screen w-full flex-col items-center justify-center bg-[#0a192f] text-4xl">
       <Informations lists={informationsList} />
       <ul>
         {destinations.map((destination, index) => {

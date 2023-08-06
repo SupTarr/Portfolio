@@ -3,7 +3,7 @@ import Information from "./Information";
 
 const Informations = ({ lists }) => {
   return (
-    <div className="fixed flex-col top-[35%] left-0">
+    <div className="fixed top-[35%] left-0 flex-col">
       <ul>
         {lists.map((list, index) => {
           return (

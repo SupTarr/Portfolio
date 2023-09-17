@@ -181,7 +181,7 @@ function App() {
               name: "My Intro In Reason",
               image: myIntroInReason,
               gitHub: "https://github.com/SupTarr/myIntroInReason",
-              liveSite: "https://suptarrescript.surge.sh/",
+              liveSite: "https://my-intro-in-rescript.suptarr.vercel.app/",
               stacks: "HTML, CSS, JavaScript, ReactJS, ReScript",
               description:
                 "My introduction to the ReScript that combined with React to make a React component",

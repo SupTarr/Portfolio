@@ -19,6 +19,7 @@ import JavaScript from "./images/javascript.png";
 import reScript from "./images/rescript.png";
 import ReactImg from "./images/react.png";
 import Node from "./images/node.png";
+import Express from "./images/express.png";
 import Mongo from "./images/mongodb.png";
 import SQL from "./images/SQL.png";
 import Git from "./images/Git-logo.png";
@@ -69,11 +70,11 @@ function App() {
               image: Python,
             },
             {
-              name: "Html",
+              name: "HTML",
               image: Html,
             },
             {
-              name: "Css3",
+              name: "CSS3",
               image: Css3,
             },
             {
@@ -89,16 +90,20 @@ function App() {
               image: JavaScript,
             },
             {
-              name: "reScript",
+              name: "ReScript",
               image: reScript,
             },
             {
-              name: "ReactImg",
+              name: "React",
               image: ReactImg,
             },
             {
               name: "Node",
               image: Node,
+            },
+            {
+              name: "Express",
+              image: Express,
             },
             {
               name: "Mongo",

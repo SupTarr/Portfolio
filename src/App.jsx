@@ -34,15 +34,15 @@ import myIntroInReason from "./images/myIntroInReason.png";
 
 function App() {
   return (
-    <div className="w-[100%] h-[100vh]">
+    <div className="h-[100vh] w-[100%]">
       <video
         src={video}
         autoPlay
         loop
         muted
-        className="w-[100%] h-[100%] object-center object-cover"
+        className="h-[100%] w-[100%] object-cover object-center"
       />
-      <div className="absolute w-[100%] h-[100%] top-0">
+      <div className="absolute top-0 h-[100%] w-[100%]">
         <Navbar
           destinations={[
             "Home",
@@ -151,7 +151,7 @@ function App() {
               name: "Jammming",
               image: Jammming,
               gitHub: "https://github.com/SupTarr/Jammming",
-              liveSite: "https://tarjammming.surge.sh/",
+              liveSite: "https://jammming.suptarr.vercel.app/",
               stacks: "HTML, CSS, JavaScript, ReactJS",
               description:
                 "Made a website with ReactJS and managed a song data from Spotify API to show a song and added a song to a new Spotify playlist",
@@ -160,7 +160,7 @@ function App() {
               name: "Ravenous",
               image: Ravenous,
               gitHub: "https://github.com/SupTarr/Ravenous",
-              liveSite: "https://supravenous.surge.sh/",
+              liveSite: "https://ravenous.suptarr.vercel.app/",
               stacks: "HTML, CSS, JavaScript, ReactJS",
               description:
                 "Made a website with ReactJS and managed businesses data from Yelp API to show each data",
@@ -172,7 +172,7 @@ function App() {
                 "https://github.com/SupTarr/FrontendImmifit",
                 "https://github.com/SupTarr/BackendImmifit",
               ],
-              liveSite: "https://immifit.vercel.app/",
+              liveSite: "https://immifit.suptarr.vercel.app/",
               stacks: "MongoDB, Express, ReactJS, NodeJS",
               description:
                 "Made a website application with MERN stack for exercise tracker",

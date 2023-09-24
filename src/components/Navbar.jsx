@@ -31,7 +31,7 @@ const Navbar = ({ destinations }) => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed z-50 flex h-[75px] w-full items-center justify-between bg-[#145DA0] px-4 text-gray-300">
+    <div className="fixed top-0 z-50 flex h-[75px] w-full items-center justify-between bg-[#145DA0] px-4 text-gray-300">
       <img src={Logo} alt="logo PG" className="w-[50px]" />
       <Links destinations={destinations} />
 

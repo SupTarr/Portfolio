@@ -1,5 +1,4 @@
 import React from "react";
-import video from "../videos/coding-kira.gif";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import supakrit from "../images/supakrit.jpg";
 import Link from "react-scroll/modules/components/Link";
@@ -10,7 +9,11 @@ const Home = () => {
       name="home"
       className="relative min-h-screen"
       id="home"
-      style={{ backgroundImage: `url(${video})`, backgroundSize: "cover" }}
+      style={{
+        backgroundImage:
+          "url(https://media.tenor.com/2nKSTDDekOgAAAAC/coding-kira.gif)",
+        backgroundSize: "cover",
+      }}
     >
       <div className="min-h-screen bg-[#0C2D48]/80">
         <div className="col-span-1 sm:hidden">

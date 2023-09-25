@@ -1,13 +1,11 @@
 import React from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
 import supakrit from "../images/supakrit.jpg";
-import Link from "react-scroll/modules/components/Link";
 
 const Home = () => {
   return (
     <section
       name="home"
-      className="relative min-h-screen"
+      className="min-h-screen"
       id="home"
       style={{
         backgroundImage:
@@ -16,7 +14,7 @@ const Home = () => {
       }}
     >
       <div className="min-h-screen bg-[#0C2D48]/80">
-        <div className="col-span-1 sm:hidden">
+        <div className="col-span-1 pt-24 sm:hidden">
           <img
             src={supakrit}
             alt="supakrit's photo"
@@ -56,21 +54,6 @@ const Home = () => {
               </span> and <span className="text-[#eff0f2]"> Programming</span>.
               I enjoy learning new technologies and solving problems in order to
               create new things.
-            </div>
-
-            <div>
-              <Link to="about" smooth={true} duration={500}>
-                <button
-                  className="group z-10 my-2 flex items-center rounded-lg border-2 px-6 py-3 text-white hover:border-yellow-400 hover:bg-yellow-400 hover:text-[#0a192f]"
-                  href=""
-                  target="_blank"
-                >
-                  View more
-                  <span className="duration-300 group-hover:-translate-y-1 group-hover:translate-x-2 group-hover:rotate-90">
-                    <HiArrowNarrowRight className="ml-3" />
-                  </span>
-                </button>
-              </Link>
             </div>
           </div>
         </div>

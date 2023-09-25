@@ -1,19 +1,17 @@
 import React from "react";
-import video from "../videos/Video.mp4";
+import video from "../videos/coding-kira.gif";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import supakrit from "../images/supakrit.jpg";
 import Link from "react-scroll/modules/components/Link";
 
 const Home = () => {
   return (
-    <section name="home" className="relative min-h-screen" id="home">
-      <video
-        src={video}
-        autoPlay
-        loop
-        muted
-        className="absolute z-[-1] h-[100%] w-[100%] object-cover object-center"
-      />
+    <section
+      name="home"
+      className="relative min-h-screen"
+      id="home"
+      style={{ backgroundImage: `url(${video})`, backgroundSize: "cover" }}
+    >
       <div className="min-h-screen bg-[#0C2D48]/80">
         <div className="col-span-1 sm:hidden">
           <img

@@ -21,7 +21,7 @@ const Home = () => {
             className="mx-auto w-[50%] rounded-lg"
           />
         </div>
-        <div className="sm:first-line container mx-auto h-full min-h-screen max-w-[1000px] gap-5 px-8 pt-5 sm:grid sm:grid-cols-3 sm:items-center sm:justify-center">
+        <div className="sm:first-line container mx-auto h-full max-w-[1000px] gap-5 px-8 pt-5 sm:grid sm:min-h-screen sm:grid-cols-3 sm:items-center sm:justify-center">
           <div className="col-span-1 items-end justify-end">
             <img
               src={supakrit}

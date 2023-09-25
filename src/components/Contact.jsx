@@ -20,19 +20,19 @@ const Contact = () => {
           </p>
         </div>
         <input
-          className="bg-[#ccd6f6] p-2"
+          className="rounded-md bg-[#ccd6f6] p-2 text-black placeholder:text-slate-500"
           type="text"
           placeholder="Name"
           name="name"
         />
         <input
-          className="my-4 bg-[#ccd6f6] p-2"
+          className="my-4 rounded-md bg-[#ccd6f6] p-2 text-black placeholder:text-slate-500"
           type="email"
           placeholder="Email"
           name="email"
         />
         <textarea
-          className="bg-[#ccd6f6] p-2"
+          className="min-h-[100px] rounded-md bg-[#ccd6f6] p-2 text-black placeholder:text-slate-500"
           name="message"
           rows="8"
           placeholder="Message"

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Links from "./Links";
 import LinksPopUp from "./LinksPopUp";
 import Informations from "./Informations";
@@ -29,6 +29,10 @@ let informations = [
 const Navbar = ({ destinations }) => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+
+  useEffect(() => {
+    document.body.style.overflow = nav ? "hidden" : "unset";
+  }, [nav]);
 
   return (
     <div className="fixed top-0 z-50 flex h-[75px] w-full items-center justify-between bg-[#145DA0] px-4 text-gray-300">

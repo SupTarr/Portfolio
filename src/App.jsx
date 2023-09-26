@@ -24,6 +24,7 @@ import Mongo from "./images/stacks/mongodb.png";
 import SQL from "./images/stacks/sql.png";
 import Git from "./images/stacks/git.png";
 import GitHub from "./images/stacks/github.png";
+import Bitbucket from "./images/stacks/bitbucket.png";
 
 import Colmar from "./images/projects/colmar-academy.png";
 import Adhoc from "./images/projects/adhoc.png";
@@ -112,6 +113,10 @@ function App() {
           {
             name: "GitHub",
             image: GitHub,
+          },
+          {
+            name: "Bitbucket",
+            image: Bitbucket,
           },
         ]}
       />

@@ -9,29 +9,29 @@ import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
 
-import C from "./images/c-logo.png";
-import Python from "./images/python-logo.png";
-import Html from "./images/html.png";
-import Css3 from "./images/css.png";
-import Bootstrap from "./images/bootstrap-logo.svg";
-import Tailwind from "./images/tailwind.png";
-import JavaScript from "./images/javascript.png";
-import reScript from "./images/rescript.png";
-import ReactImg from "./images/react.png";
-import Node from "./images/node.png";
-import Express from "./images/express.png";
-import Mongo from "./images/mongodb.png";
-import SQL from "./images/SQL.png";
-import Git from "./images/Git-logo.png";
-import GitHub from "./images/github.png";
+import C from "./images/stacks/c.png";
+import Python from "./images/stacks/python.png";
+import Html from "./images/stacks/html.png";
+import Css3 from "./images/stacks/css.png";
+import Bootstrap from "./images/stacks/bootstrap.svg";
+import Tailwind from "./images/stacks/tailwind.png";
+import JavaScript from "./images/stacks/javascript.png";
+import reScript from "./images/stacks/rescript.png";
+import ReactImg from "./images/stacks/react.png";
+import Node from "./images/stacks/node.png";
+import Express from "./images/stacks/express.png";
+import Mongo from "./images/stacks/mongodb.png";
+import SQL from "./images/stacks/sql.png";
+import Git from "./images/stacks/git.png";
+import GitHub from "./images/stacks/github.png";
 
-import Colmar from "./images/ColmarAcademy.png";
-import Adhoc from "./images/adhoc.png";
-import findYourHat from "./images/findYourHat.png";
-import Jammming from "./images/Jammming.png";
-import Ravenous from "./images/Ravenous.png";
-import Immifit from "./images/Immifit.png";
-import myIntroInReason from "./images/myIntroInReason.png";
+import Colmar from "./images/projects/colmar-academy.png";
+import Adhoc from "./images/projects/adhoc.png";
+import findYourHat from "./images/projects/find-your-hat.png";
+import Jammming from "./images/projects/jammming.png";
+import Ravenous from "./images/projects/ravenous.png";
+import Immifit from "./images/projects/immifit.png";
+import myIntroInReScript from "./images/projects/my-intro-in-rescript.png";
 
 function App() {
   return (
@@ -175,9 +175,9 @@ function App() {
               "Made a website application with MERN stack for exercise tracker",
           },
           {
-            name: "My Intro In Reason",
-            image: myIntroInReason,
-            gitHub: "https://github.com/SupTarr/myIntroInReason",
+            name: "My Intro In ReScript",
+            image: myIntroInReScript,
+            gitHub: "https://github.com/SupTarr/myIntroInReScript",
             liveSite: "https://my-intro-in-rescript.suptarr.vercel.app/",
             stacks: "HTML, CSS, JavaScript, ReactJS, ReScript",
             description:

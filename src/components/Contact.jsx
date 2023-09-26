@@ -4,21 +4,21 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="flex w-full items-center justify-center bg-[#0C2D48] p-4 pt-24"
+      className="flex w-full flex-col items-center justify-center bg-[#0C2D48] p-4 pt-24"
     >
+      <div className="w-full max-w-[1000px] pb-8 text-xl">
+        <p className="inline border-b-4 border-red-600 text-4xl font-bold text-gray-300">
+          Contact
+        </p>
+        <p className="py-4 text-2xl text-gray-300">
+          // Submit the form below or sent an email to tatasuppakrit@gmail.com
+        </p>
+      </div>
       <form
         method="POST"
         action="https://getform.io/f/02c422e0-b70e-4691-a1b9-f0fc1b804ad4"
         className="flex w-full max-w-[700px] flex-col"
       >
-        <div className="pb-8 text-xl">
-          <p className="inline border-b-4 border-red-600 text-4xl font-bold text-gray-300">
-            Contact
-          </p>
-          <p className="py-4 text-2xl text-gray-300">
-            // Submit the form below or sent an email to tatasuppakrit@gmail.com
-          </p>
-        </div>
         <input
           className="rounded-md bg-[#ccd6f6] p-2 text-black placeholder:text-slate-500"
           type="text"

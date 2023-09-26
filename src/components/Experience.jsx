@@ -17,16 +17,18 @@ const Experience = () => {
               Toyota Tsusho DENSO Electronics (Thailand)
             </p>
             <p className="text-lg italic ">Internship </p>
-            <ul className="list-disc px-10 pt-4 text-xl text-[#a3adcc] hover:text-[#ffffff]">
-              <li>
+            <ul className="list-disc px-10 pt-4 text-xl text-[#a3adcc]">
+              <li className="hover:text-[#ffffff]">
                 Designed model of Battery and BMS (Battery Management System)
               </li>
-              <li>
+              <li className="hover:text-[#ffffff]">
                 Designed model of PMSM (Permanent Magnet Synchronous Motors)
                 from mathematic equations and field oriented vector control
                 (FOC)
               </li>
-              <li>Python programming with Google Colab for Image Processing</li>
+              <li className="hover:text-[#ffffff]">
+                Python programming with Google Colab for Image Processing
+              </li>
             </ul>
           </div>
           <div className="py-3 text-center text-xl">
@@ -44,8 +46,8 @@ const Experience = () => {
                 (Mechatronics Engineering)
               </span>
             </p>
-            <ul className="list-disc px-10 pt-4 text-xl text-[#a3adcc] hover:text-[#ffffff]">
-              <li className="italic">
+            <ul className="list-disc px-10 pt-4 text-xl text-[#a3adcc]">
+              <li className="italic hover:text-[#ffffff]">
                 Smart Agricultural Robot Contest 2020
                 <ul className="list-[circle] px-2 pt-2 pb-4 text-xl not-italic text-[#a3adcc] hover:text-[#ffffff]">
                   <li className="font-[550]">
@@ -57,7 +59,7 @@ const Experience = () => {
                   </li>
                 </ul>
               </li>
-              <li className="italic">
+              <li className="italic hover:text-[#ffffff]">
                 Robot Design Camp: RDC 2021
                 <ul className="list-[circle] px-2 pt-2 pb-4 text-xl not-italic text-[#a3adcc] hover:text-[#ffffff]">
                   <li className="font-[550]">
@@ -69,7 +71,7 @@ const Experience = () => {
                   </li>
                 </ul>
               </li>
-              <li className="italic">
+              <li className="italic hover:text-[#ffffff]">
                 Programming for control manufacturing in industry (PLC)
                 <ul className="list-[circle] px-2 pt-2 pb-4 text-xl not-italic text-[#a3adcc] hover:text-[#ffffff]">
                   <li className="font-[550]">

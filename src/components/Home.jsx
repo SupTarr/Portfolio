@@ -3,16 +3,14 @@ import supakrit from "../images/supakrit.jpg";
 
 const Home = () => {
   return (
-    <section
-      name="home"
-      className="min-h-screen"
-      id="home"
-      style={{
-        backgroundImage:
-          "url(https://media.tenor.com/2nKSTDDekOgAAAAC/coding-kira.gif)",
-        backgroundSize: "cover",
-      }}
-    >
+    <section name="home" className="relative min-h-screen" id="home">
+    <video
+      src="https://res.cloudinary.com/suptarr/video/upload/v1709459911/Videos/ciolknzbsigztdzm7dzg.mp4"
+      autoPlay
+      loop
+      muted
+      className="absolute z-[-1] h-[100%] w-[100%] object-cover object-center"
+    />
       <div className="min-h-screen bg-[#0C2D48]/80">
         <div className="col-span-1 pt-24 sm:hidden">
           <img

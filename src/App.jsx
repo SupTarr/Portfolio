@@ -11,12 +11,13 @@ import Experience from "./components/Experience";
 
 import C from "./images/techs/c.png";
 import Python from "./images/techs/python.png";
+import JavaScript from "./images/techs/javascript.png";
+import ReScript from "./images/techs/rescript.png";
+import Go from "./images/techs/go.png";
 import Html from "./images/techs/html.png";
 import Css3 from "./images/techs/css.png";
 import Bootstrap from "./images/techs/bootstrap.svg";
 import Tailwind from "./images/techs/tailwind.png";
-import JavaScript from "./images/techs/javascript.png";
-import reScript from "./images/techs/rescript.png";
 import ReactImg from "./images/techs/react.png";
 import Node from "./images/techs/node.png";
 import Express from "./images/techs/express.png";
@@ -25,6 +26,7 @@ import SQL from "./images/techs/sql.png";
 import Git from "./images/techs/git.png";
 import GitHub from "./images/techs/github.png";
 import Bitbucket from "./images/techs/bitbucket.png";
+import GitLab from "./images/techs/gitlab.svg";
 
 import Colmar from "./images/projects/colmar-academy.png";
 import Adhoc from "./images/projects/adhoc.png";
@@ -63,6 +65,18 @@ function App() {
             image: Python,
           },
           {
+            name: "JavaScript",
+            image: JavaScript,
+          },
+          {
+            name: "ReScript",
+            image: ReScript,
+          },
+          {
+            name: "Go",
+            image: Go,
+          },
+          {
             name: "HTML",
             image: Html,
           },
@@ -77,14 +91,6 @@ function App() {
           {
             name: "Tailwind",
             image: Tailwind,
-          },
-          {
-            name: "JavaScript",
-            image: JavaScript,
-          },
-          {
-            name: "ReScript",
-            image: reScript,
           },
           {
             name: "React",
@@ -117,6 +123,10 @@ function App() {
           {
             name: "Bitbucket",
             image: Bitbucket,
+          },
+          {
+            name: "GitLab",
+            image: GitLab,
           },
         ]}
       />

@@ -22,7 +22,7 @@ let informations = [
   {
     name: "Resume",
     icon: <BsFillPersonLinesFill size={30} />,
-    link: "https://drive.google.com/file/d/1mLlHtbb6MbW9ncpP-E2h_TSFpYs2QzS_/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1hJSPMKlgVWblsandvORX7cplu818lu7X/view?usp=sharing",
   },
 ];
 
